@@ -42,6 +42,8 @@ input.onButtonPressed(Button.AB, function () {
             answer=num1/num2
             basic.showString("" + answer)
           }
+          basic.pause(5000)
+          control.reset()
     }
 })
 input.onButtonPressed(Button.B, function () {
